@@ -59,7 +59,7 @@ input:focus, select:focus{
 
 body {
     font-family: 'Poppins', sans-serif !important;
-    background: #F6F6F6;
+    background: #fff;
 }
 
 
@@ -128,7 +128,14 @@ select{
     color: #FFF;
 }
 
+.d_flex{
+    display: flex;
+    align-items: center;
+}
 
+.d_justify{
+    justify-content: space-between;
+}
 
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------------- 
@@ -148,7 +155,43 @@ select{
     margin-top: 30px;
 }
 
+input#flexSwitchCheckChecked {
+    width: 65px !important;
+    height: 40px;
+}
 
+.form-switch label{
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.form-check-input:checked {
+    background-color: var(--bg_color2);
+    border-color: var(--bg_color2);
+}
+
+.edit_coundown_button{
+    margin-top: 50px;
+    text-align: right;
+}
+
+.edit_coundown_button a{
+    background: #FFF;
+    border: 1px solid #eee;
+    color: var(--bg_color2);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.edit_coundown_button a:last-child{
+    margin-right: 0;
+}
+
+.edit_coundown_button a.bg{
+    background: var(--bg_color2);
+    color: #FFF;
+}
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------------- 
     START  PART
