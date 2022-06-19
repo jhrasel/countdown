@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application</title>
+
+  <!-- FONT LINK -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="frontend_assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="frontend_assets/css/slick.css">
+  <link rel="stylesheet" href="frontend_assets/css/style.css">
+  <link rel="stylesheet" href="frontend_assets/css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="frontend_assets/css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="frontend_assets/css/media.css">
+
+  <script src="frontend_assets/js/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- --------------------------------------------------------------------------------------------------------------------------------------------------- 
+    START PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- -->
+  <section id="edit_coundown">
+
+    <div class="container">
+
+      <form action="" method="">
+
+        <div class="row">
+
+          <!-- left -->
+          <div class="col-lg-5">
+  
+              <div class="edit_countdown_left text-center">
+                <h3 class="wh">LIVE Stream Schedul</h3>
+                <p class="wh">let's create your online streaming service schedule (you can create more counterdowns later
+                  if needed)</p>
+  
+                <div class="form_part">
+  
+                  <!-- Day of Service -->
+                  <div class="custome_input">
+                    <label class="wh">Day of Service</label>
+                    <input type="date" name="" placeholder="2020-01-01">
+                  </div>
+  
+                  <!-- Start Time -->
+                  <div class="custome_input">
+                    <label class="wh">Start Time</label>
+                    <input type="date" name="" placeholder="2020-01-01">
+                  </div>
+  
+                  <!-- End Time -->
+                  <div class="custome_input">
+                    <label class="wh">End Time</label>
+                    <input type="date" name="" placeholder="2020-01-01">
+                  </div>
+  
+                  <!-- Time Zone -->
+                  <div class="custome_input">
+                    <label class="wh">Time Zone</label>
+  
+                    <select name="">
+                      <option value="">CST</option>
+                      <option value="">CST</option>
+                      <option value="">CST</option>
+                      <option value="">CST</option>
+                    </select>
+  
+                  </div>
+  
+                  <!-- Time Zone -->
+                  <div class="custome_input">
+                    <label class="wh">Service Time</label>
+  
+                    <select name="">
+                      <option value="">Change service time</option>
+                      <option value="">Change service time</option>
+                      <option value="">Change service time</option>
+                      <option value="">Change service time</option>
+                    </select>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+  
+  
+          </div>
+  
+          <!-- Right -->
+          <div class="col-lg-7">
+  
+            <div class="edit_countdown_left">
+              <h3 class="wh">Countdown Settings</h3>
+
+              <div class="form_part">
+
+                <!-- Text Above Countdown -->
+                <div class="custome_input">
+                  <label class="wh">Text Above Countdown</label>
+                  <input type="text" name="" placeholder="Exampale">
+                </div>
+
+                <!-- Button Text -->
+                <div class="custome_input">
+                  <label class="wh">Button Text</label>
+                  <input type="text" name="" placeholder="Exampale">
+                </div>
+
+                 <!-- Button Link -->
+                 <div class="custome_input">
+                  <label class="wh">Button Link</label>
+                  <input type="text" name="" placeholder="Exampale">
+                </div>
+
+              </div>
+
+            </div>
+  
+          </div>
+  
+        </div>
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+
+
+
+  <!-- --------------------------------------------------------------------------------------------------------------------------------------------------- 
+    START PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+  <!-- JS Link -->
+  <!-- <script src="frontend_assets/js/jquery-1.12.4.min.js"></script> -->
+
+  <script src="frontend_assets/js/bootstrap.bundle.min.js"></script>
+  <script src="frontend_assets/js/bootstrap-datepicker.min.js"></script>
+  <script src="frontend_assets/js/slick.min.js"></script>
+  <script src="frontend_assets/js/all.min.js"></script>
+  <script src="frontend_assets/js/slick.min.js"></script>
+  <script src="frontend_assets/js/custom.js"></script>
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+
+  <script>
+    var xValues = [50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150];
+    var yValues = [7, 8, 8, 9, 9, 9, 10, 11, 14, 14, 15];
+
+    new Chart("myChart", {
+      type: "line",
+      data: {
+        labels: xValues,
+        datasets: [{
+          fill: false,
+          lineTension: 0,
+          backgroundColor: "rgba(0,0,255,1.0)",
+          borderColor: "rgba(0,0,255,0.1)",
+          data: yValues
+        }]
+      },
+      options: {
+        legend: {
+          display: false
+        },
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 6,
+              max: 16
+            }
+          }],
+        }
+      }
+    });
+  </script>
+
+</body>
+
+</html>

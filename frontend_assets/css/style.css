@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0;
+    clear: both;
+    color: #000000;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+input:focus, select:focus{
+    outline: none;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background: #F6F6F6;
+}
+
+
+:root {
+    --bg_color:#232331; 
+    --bg_color2:#7D40F4; 
+    --text_color:#151A1F; 
+}
+
+.custom_width {
+    max-width: calc(100% - 390px);
+    margin-right: 40px;
+}
+
+/*---------------- Common Css ----------------*/
+
+h2{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+input{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    color: var(--text_color);
+}
+
+label{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+select{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    color: var(--text_color);
+}
+
+.wh{
+    color: #FFF;
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------- 
+    START Edit Countdown PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+.edit_countdown_left{
+    background: var(--bg_color);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.form_part{
+    text-align: left;
+}
+
+.form_part .custome_input{
+    margin-top: 30px;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------- 
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------- 
+    START  PART
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
